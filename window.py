@@ -8,6 +8,9 @@ class App:
     path = ""
     num_files = ""
     def __init__(self):
+        # if os.environ.get('DISPLAY','') == '':
+        #     print('no display found. Using :172.17.80.1:0.0')
+        #     os.environ.__setitem__('DISPLAY', '172.17.80.1:0.0')
 
         self.root = tk.Tk()
 
